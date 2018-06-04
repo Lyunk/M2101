@@ -4,7 +4,7 @@
 int main (void) {
 	char hello[] = "Bonjour";
 	char bye[11] = "Au revoir";
-	char numbers[10] = "012345678";
+	char numbers[11] = "012345678";
 
 	printf("hello: %s\n", hello);
 	printf("numbers: %s\n", numbers);
