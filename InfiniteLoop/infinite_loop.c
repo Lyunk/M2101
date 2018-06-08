@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int infini (int n) {
-	int p = n;
-	while (1 < p) {
-		p++;	
+	while (n!=0) {
+		n++;
 	}
-	return p;
+	return n;
 }
 
 int main (void) {
-	printf("%f\n", infini(3));
+	printf("%d", infini(2));
 
 }
